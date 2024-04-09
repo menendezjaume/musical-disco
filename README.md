@@ -18,4 +18,4 @@ Cada projecte de joc es troba en una carpeta separada dins d'aquest repositori. 
 
 # Com Contribuir
 
-Aquest repositori està obert a contribucions dels alumnes participants. Si voleu afegir el vostre projecte de joc o suggerir millores a un joc existent, consulteu la guia de contribució per a més detalls sobre com fer-ho.
+Aquest repositori està obert a contribucions dels alumnes participants. Si voleu afegir el vostre projecte de joc o suggerir millores a un joc existent, consulteu la [guia de contribució](CONTRIBUTING.md) per a més detalls sobre com fer-ho.

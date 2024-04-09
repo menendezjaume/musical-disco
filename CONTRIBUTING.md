@@ -33,5 +33,5 @@ Si t'agradaria contribuir amb una millora directa al codi, segueix aquests passo
 
 ### Codi de Conducta
 
-Esperem que tots els contribuïdors mantinguin un comportament respectuós i professional. Per a més detalls, si us plau revisa el nostre Codi de Conducta.
+Esperem que tots els contribuïdors mantinguin un comportament respectuós i professional. Per a més detalls, si us plau revisa el nostre [Codi de Conducta](.github/CODE_OF_CONDUCT.md).
 
