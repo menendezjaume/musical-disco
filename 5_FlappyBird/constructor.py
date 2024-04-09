@@ -19,7 +19,7 @@ class Fondo (pygame.sprite.Sprite):
 class Pajaro(pygame.sprite.Sprite):
     def __init__(self, posicion) -> None:
         super().__init__()
-        imagen = [pygame.image.load("Imagenes/pajaro-abajo.PNG"), pygame.image.load("Imagenes/pajaro-arriba.PNG")]
+        imagen = [pygame.image.load("Imagenes/pajaro-abajo.png"), pygame.image.load("Imagenes/pajaro-arriba.png")]
         self.imagen_pajaro=[pygame.transform.scale(imagen[0],(55,40)), pygame.transform.scale(imagen[1],(55,40))]
         self.indice_imagenes = 0
         self.image = self.imagen_pajaro[self.indice_imagenes]
