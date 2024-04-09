@@ -1,0 +1,9 @@
+1.Pelea entre ataques y recoleccion
+2.Enemigo se mueve de arriba abajo. Dificultad facil : lento. Dificultad dificil : rapida
+2.Dificultad facil : 1 piccolo derecha. Dificultad dificil : 2 piccolo, uno derecha otro izquierda
+3.goku se mueve por todo el mapa y dispara
+4.Vida enemigo facil 10, dificil 15.
+5.Vida goku 3 facil, 5 dificil
+6.cada cierto tiempo aparece bola de dragon, si consigue 7 gana (puntuacion)
+7.Cambiar foto menu
+8.Antes de empezar juego. pantalla de reglas
