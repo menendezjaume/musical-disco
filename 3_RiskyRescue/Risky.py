@@ -12,7 +12,7 @@ pantalla = pygame.display.set_mode(tamaño)
 
 
 imagen_fondo_menu = pygame_menu.baseimage.BaseImage(
-    image_path="Risky_Rescue/fondo_menu.jpg",
+    image_path="3_RiskyRescue/fondo_menu.jpg",
     drawing_mode=pygame_menu.baseimage.IMAGE_MODE_FILL
 )
 
@@ -134,7 +134,7 @@ def start_the_game():
         if vidas <= 0:            
                     
                     pantalla.fill((0, 0, 0))
-                    texto_game_over = pygame.image.load("Risky_Rescue/game-over.jpg")
+                    texto_game_over = pygame.image.load("3_RiskyRescue/game-over.jpg")
                     x = (pantalla.get_width() - texto_game_over.get_width()) // 2
                     y = (pantalla.get_height() - texto_game_over.get_height()) // 2
                     pantalla.blit(texto_game_over, (x, y))
