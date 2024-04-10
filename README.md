@@ -19,3 +19,12 @@ Cada projecte de joc es troba en una carpeta separada dins d'aquest repositori. 
 # Com Contribuir
 
 Aquest repositori està obert a contribucions dels alumnes participants. Si voleu afegir el vostre projecte de joc o suggerir millores a un joc existent, consulteu la [guia de contribució](CONTRIBUTING.md) per a més detalls sobre com fer-ho.
+
+# Autors
+
+* [2_MarioBros](2_MarioBros): [@ainabrenes](https://github.com/ainabrenes)
+* [3_RiskyRescue](3_RiskyRescue): [@casamor125](https://github.com/casamor125)
+* [5_FlappyBird](5_FlappyBird): [@dd0minguez](https://github.com/dd0minguez)
+* [7_DragonBall](7_DragonBall): [@pedrogarciaaag](https://github.com/pedrogarciaaag)
+* [12_CatInvaders](12_CatInvaders): [@Eric-Lachcik](https://github.com/Eric-Lachcik)
+* [15_SkeletonAlienArmadaVsMexicanCat](15_SkeletonAlienArmadaVsMexicanCat): [@JoanMenendezCalafell](https://github.com/JoanMenendezCalafell)
