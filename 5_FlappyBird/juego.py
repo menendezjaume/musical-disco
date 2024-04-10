@@ -36,7 +36,7 @@ def pause():
         reloj.tick(60)
 
 def set_difficulty(value, set_difficulty):
-    tubo_dificil = pygame.image.load("Imagenes/Tubo1.png")
+    tubo_dificil = pygame.image.load("Imagenes/tubo1.png")
     tubo_dificil = pygame.transform.scale(tubo_dificil, (300,478))
     tubo1_dificil_sprite = constructor.Tubo((600,0), tubo_dificil)
 def start_the_game():
@@ -58,15 +58,15 @@ def start_the_game():
     sin_sol = pygame.image.load("Imagenes/Fondo2.png")
     sin_sol = pygame.transform.scale(con_sol, (pantalla.get_width(), con_sol.get_height()))
     #Tubo1
-    tubo1 = pygame.image.load("Imagenes/Tubo1.png")
+    tubo1 = pygame.image.load("Imagenes/tubo1.png")
     tubo1 = pygame.transform.scale(tubo1, (600,478))
     tubo1_facil_sprite = constructor.Tubo((600,0), tubo1)
     #Tubo2
-    tubo2 = pygame.image.load("Imagenes/Tubo2.png")
+    tubo2 = pygame.image.load("Imagenes/tubo2.png")
     tubo2 = pygame.transform.scale(tubo2, (600,478))
     tubo2_facil_sprite = constructor.Tubo((1000,0), tubo2)
     #Tubo3
-    tubo3 = pygame.image.load("Imagenes/Tubo3.png")
+    tubo3 = pygame.image.load("Imagenes/tubo3.png")
     tubo3 = pygame.transform.scale(tubo3, (600,478))
     tubo3_facil_sprite = constructor.Tubo((1400,0), tubo3)
     #Tubo 4
