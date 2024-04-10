@@ -5,7 +5,7 @@ class Nave (pygame.sprite.Sprite):
     def __init__(self, posicion , vidas , puntuacion) -> None:
         super().__init__()
         #cargamos la imagen
-        self.imagenes = pygame.image.load("3_RiskyRescue/nave.png")
+        self.imagenes = pygame.image.load("nave.png")
         self.image = pygame.transform.scale(self.imagenes, (70, 100))
         self.mask = pygame.mask.from_surface(self.image)
         self.contador_imagen = 0
@@ -84,12 +84,12 @@ class Nave (pygame.sprite.Sprite):
             if tiempo_actual % 200 < 100:
                 self.image = pygame.Surface((1,1)) #imagen invisible
             else:
-                self.image = pygame.transform.scale(pygame.image.load("3_RiskyRescue/nave.png"), (70, 100))
+                self.image = pygame.transform.scale(pygame.image.load("nave.png"), (70, 100))
                 #reiniciar parpadeo
                 if tiempo_actual - self.tiempo_parpadear > 1000: #duracion
                     self.parpadear = False
         else:
-            self.image = pygame.transform.scale(pygame.image.load("3_RiskyRescue/nave.png"), (70, 100))
+            self.image = pygame.transform.scale(pygame.image.load("nave.png"), (70, 100))
             
             
         
@@ -107,18 +107,18 @@ class Nave (pygame.sprite.Sprite):
             if tiempo_actual % 200 < 100:
                 self.image = pygame.Surface((1,1)) #imagen invisible
             else:
-                self.image = pygame.transform.scale(pygame.image.load("3_RiskyRescue/nave.png"), (70, 100))
+                self.image = pygame.transform.scale(pygame.image.load("nave.png"), (70, 100))
                 #reiniciar parpadeo
                 if tiempo_actual - self.tiempo_parpadear > 1000: #duracion
                     self.parpadear = False
         else:
-            self.image = pygame.transform.scale(pygame.image.load("3_RiskyRescue/nave.png"), (70, 100))    
+            self.image = pygame.transform.scale(pygame.image.load("nave.png"), (70, 100))    
 #creador de enemigos
 class Enemigo(pygame.sprite.Sprite):
     def __init__(self, posicion , Nave) -> None:
         super().__init__()
         #cargamos la imagen
-        imagen = [pygame.image.load("3_RiskyRescue/meteorito.png"),pygame.image.load("3_RiskyRescue/explosion.png") ]
+        imagen = [pygame.image.load("meteorito.png"),pygame.image.load("explosion.png") ]
         self.imagen2 = [pygame.transform.scale(imagen[0],(80,140)) ,
                        pygame.transform.scale(imagen[1],(80,140)) ]
         self.image = pygame.transform.rotate(self.imagen2[0], 340)
@@ -164,7 +164,7 @@ class Fondo(pygame.sprite.Sprite):
     def __init__(self) -> None:
         super().__init__()
         # cargamos la imagen
-        imagen = pygame.image.load("3_RiskyRescue/nubes.jpeg")
+        imagen = pygame.image.load("nubes.jpeg")
         #pantalla
         pantalla = pygame.display.get_surface()
         self.image = pygame.transform.scale(imagen, (1000, 800))
@@ -176,7 +176,7 @@ class Fondo(pygame.sprite.Sprite):
 class Bala(pygame.sprite.Sprite):
     def __init__(self, posicion) -> None:
         super().__init__()
-        self.image = pygame.image.load("3_RiskyRescue/perla.png")
+        self.image = pygame.image.load("perla.png")
         self.image = pygame.transform.scale(self.image,(10,10))
         self.mask = pygame.mask.from_surface(self.image)
         self.rect = self.image.get_rect()
@@ -190,7 +190,7 @@ class Astronauta(pygame.sprite.Sprite):
     def __init__(self, posicion, nave) -> None:
         super().__init__()
         # Cargamos la imagen original
-        imagen_original = pygame.image.load("3_RiskyRescue/astronauta.png")
+        imagen_original = pygame.image.load("astronauta.png")
         imagen_original = pygame.transform.scale(imagen_original,(90,90))
         self.imagenes_rotadas = [pygame.transform.rotate(imagen_original, angle) for angle in range(0, 360, 1)]
         self.indice_rotacion = 0
