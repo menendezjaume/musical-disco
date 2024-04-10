@@ -21,4 +21,4 @@ Evita chocar con los obstáculos que aparecen en tu camino.
 Desarrollado por: Pedro Martinez Do Carmo
 
 ¡Disfruta de AstroRain y demuestra tus habilidades como piloto!
-¡Que comience la aventura espacial! 🚀
+¡Que comience la aventura espacial! 🚀 
