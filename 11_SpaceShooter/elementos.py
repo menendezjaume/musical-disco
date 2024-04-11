@@ -146,7 +146,7 @@ class Enemigo(pygame.sprite.Sprite):
         self.width = self.image.get_width()
         self.ultimo_disparo = 0
         self.frecuencia_disparo = 2000
-        self.puede_disparar = random.random() > 0.85
+        self.puede_disparar = random.random() > 0.55
         self.grupo_sprites_planeta = grupo_sprites_planeta
 
     def disparar(self, grupo_sprites_todos, grupo_sprites_bala_enemigo):
