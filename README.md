@@ -28,10 +28,14 @@ Aquest repositori està obert a contribucions dels alumnes participants. Si vole
 
 # Autors
 
-* [2_MarioBros](2_MarioBros): [@ainabrenes](https://github.com/ainabrenes)
-* [3_RiskyRescue](3_RiskyRescue): [@casamor125](https://github.com/casamor125)
-* [4_SpaceInvaders](4_SpaceInvaders): [@danielcorralesleon3](https://github.com/danielcorralesleon3)
-* [5_FlappyBird](5_FlappyBird): [@dd0minguez](https://github.com/dd0minguez)
-* [7_DragonBall](7_DragonBall): [@pedrogarciaaag](https://github.com/pedrogarciaaag)
+* [01_AstroRescue](01_AstroRescue): [@Johnnythe01](https://github.com/Johnnythe01)
+* [02_MarioBros](02_MarioBros): [@ainabrenes](https://github.com/ainabrenes)
+* [03_RiskyRescue](03_RiskyRescue): [@casamor125](https://github.com/casamor125)
+* [04_SpaceInvaders](04_SpaceInvaders): [@danielcorralesleon3](https://github.com/danielcorralesleon3)
+* [06_RescateEspacial](06_RescateEspacial): [@JuanAntonioFernandezMayol](https://github.com/JuanAntonioFernandezMayol)
+* [05_FlappyBird](05_FlappyBird): [@dd0minguez](https://github.com/dd0minguez)
+* [07_DragonBall](07_DragonBall): [@pedrogarciaaag](https://github.com/pedrogarciaaag)
+* [08_PlanetDefenders](08_PlanetDefenders): [@AdrianHeCa](https://github.com/AdrianHeCa)
 * [12_CatInvaders](12_CatInvaders): [@Eric-Lachcik](https://github.com/Eric-Lachcik)
+* [13_Asteroids](13_Asteroids): [@xlupicomas](https://github.com/xlupicomas)
 * [15_SkeletonAlienArmadaVsMexicanCat](15_SkeletonAlienArmadaVsMexicanCat): [@JoanMenendezCalafell](https://github.com/JoanMenendezCalafell)
