@@ -11,7 +11,7 @@ from typing import Any
 class Plataforma(pygame.sprite.Sprite):
     def __init__(self, posicion):
         super().__init__()
-        imagenes_cargadas = pygame.image.load("14_AstroRain/imagenes/nave.png")
+        imagenes_cargadas = pygame.image.load("imagenes\\nave.png")
         self.image = pygame.transform.scale(imagenes_cargadas, (150, 150))
         self.rect = self.image.get_rect()
         self.rect.topleft = posicion
@@ -41,7 +41,7 @@ class Plataforma(pygame.sprite.Sprite):
 class Fondo(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        imagen = pygame.image.load("14_AstroRain/imagenes/cielo.jpg")
+        imagen = pygame.image.load("imagenes\\cielo.jpg")
         pantalla = pygame.display.get_surface()
         self.image = pygame.transform.scale(imagen, (pantalla.get_width(), pantalla.get_height()))
         self.rect = self.image.get_rect()
@@ -52,7 +52,7 @@ class Fondo(pygame.sprite.Sprite):
 class Meteorito(pygame.sprite.Sprite):
     def __init__(self, posicion_spawn):
         super().__init__()
-        imagen = pygame.image.load("14_AstroRain/imagenes/meteoro.png")
+        imagen = pygame.image.load("imagenes\\meteoro.png")
         posicion_spawn = posicion_spawn
         self.image = imagen
         self.image = pygame.transform.rotate(imagen, (-42))
@@ -67,7 +67,7 @@ class Meteorito(pygame.sprite.Sprite):
 class Atronauta(pygame.sprite.Sprite):
     def __init__(self, posicion_spawn):
         super().__init__()
-        imagen = pygame.image.load("14_AstroRain/imagenes/astronauta.png")
+        imagen = pygame.image.load("imagenes\\astronauta.png")
         posicion_spawn = posicion_spawn
         self.imagen_escalada = pygame.transform.scale(imagen, (80, 80))
         self.image = self.imagen_escalada
