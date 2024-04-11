@@ -13,6 +13,12 @@ Els projectes presentats en aquest repositori serveixen com a demostració pràc
 * Resolució de Problemes: Utilització de lògica de programació per solucionar desafiaments únics presentats durant el desenvolupament de jocs.
 * Creativitat i Innovació: Encoratjament de l'expressió personal i la innovació en el disseny del joc i la mecànica.
 
+# Instruccions
+
+```bash
+pip install -r requirements.txt
+```
+
 # Estructura del Repositori
 Cada projecte de joc es troba en una carpeta separada dins d'aquest repositori. Dins de cada carpeta, trobaràs tots els fitxers necessaris per executar el joc, així com un README específic amb instruccions sobre com jugar-lo, una breu descripció del joc, i qualsevol altre detall rellevant.
 
