@@ -17,63 +17,63 @@ pantalla = pygame.display.set_mode(tamanyo, pygame.RESIZABLE)
 #Funciones para acceder a los juegos
 def astroRescue():
     wd = os.getcwd()
-    os.chdir("./1_AstroRescue")
+    os.chdir("./01_AstroRescue")
     subprocess.Popen("ls")    
-    subprocess.Popen(["python3", "juego.py"])
+    subprocess.Popen(["python3", "astrorescue.py"])
     os.chdir(wd)
 
 def marioBros():
     wd = os.getcwd()
-    os.chdir("./2_MarioBros")
+    os.chdir("./02_MarioBros")
     subprocess.Popen("ls")    
-    subprocess.Popen(["python3", "juego.py"])
+    subprocess.Popen(["python3", "space3.py"])
     os.chdir(wd)
 
 def riskyRescue():
     wd = os.getcwd()
-    os.chdir("./3_RiskyRescue")
+    os.chdir("./03_RiskyRescue")
     subprocess.Popen("ls")    
-    subprocess.Popen(["python3", "juego.py"])
+    subprocess.Popen(["python3", "Risky.py"])
     os.chdir(wd)
 
 def spaceInvaders():
     wd = os.getcwd()
-    os.chdir("./4_SpaceInvaders")
+    os.chdir("./04_SpaceInvaders")
     subprocess.Popen("ls")    
-    subprocess.Popen(["python3", "juego.py"])
+    subprocess.Popen(["python3", "main.py"])
     os.chdir(wd)
 
 def flappyBird():
     wd = os.getcwd()
-    os.chdir("./5_FlappyBird")
+    os.chdir("./05_FlappyBird")
     subprocess.Popen("ls")    
     subprocess.Popen(["python3", "juego.py"])
     os.chdir(wd)
 
 def rescateEspacial():
     wd = os.getcwd()
-    os.chdir("./6_RescateEspacial")
+    os.chdir("./06_RescateEspacial")
     subprocess.Popen("ls")    
-    subprocess.Popen(["python3", "juego.py"])
+    subprocess.Popen(["python3", "rescateEspacial.py"])
     os.chdir(wd)
 
 def dragonBall():
     wd = os.getcwd()
-    os.chdir("./7_DragonBall")
+    os.chdir("./07_DragonBall")
     subprocess.Popen("ls")    
     subprocess.Popen(["python3", "juego.py"])
     os.chdir(wd)
 
 def planetDefenders():
     wd = os.getcwd()
-    os.chdir("./8_PlanetDefenders")
+    os.chdir("./08_PlanetDefenders")
     subprocess.Popen("ls")    
-    subprocess.Popen(["python3", "juego.py"])
+    subprocess.Popen(["python3", "PlanetDefenders.py"])
     os.chdir(wd)
 
 # def 9():
 #     wd = os.getcwd()
-#     os.chdir("./9_")
+#     os.chdir("./09_")
 #     subprocess.Popen("ls")    
 #     subprocess.Popen(["python3", "juego.py"])
 #     os.chdir(wd)
@@ -95,14 +95,14 @@ def catInvaders():
     wd = os.getcwd()
     os.chdir("./12_CatInvaders")
     subprocess.Popen("ls")    
-    subprocess.Popen(["python3", "juego.py"])
+    subprocess.Popen(["python3", "main.py"])
     os.chdir(wd)
 
 def asteroids():
     wd = os.getcwd()
     os.chdir("./13_Asteroids")
     subprocess.Popen("ls")    
-    subprocess.Popen(["python3", "juego.py"])
+    subprocess.Popen(["python3", "Main.py"])
     os.chdir(wd)
 
 def astroRain():
@@ -116,7 +116,7 @@ def skeletonAlienArmadaVsMexicanCat():
     wd = os.getcwd()
     os.chdir("./15_SkeletonAlienArmadaVsMexicanCat")
     subprocess.Popen("ls")    
-    subprocess.Popen(["python3", "juego.py"])
+    subprocess.Popen(["python3", "game.py"])
     os.chdir(wd)
 
 # def 16():
@@ -164,7 +164,7 @@ menu.add.button('Space Shooter', spaceShooter)
 menu.add.button('Cat Invaders', catInvaders)
 menu.add.button('Asteroids', asteroids)
 menu.add.button('Astro Rain', astroRain)
-menu.add.button('Skeleton Alien Armada VS Mexican Cat', planetDefenders)
+menu.add.button('Skeleton Alien Armada VS Mexican Cat', skeletonAlienArmadaVsMexicanCat)
 menu.add.button('16', )
 menu.add.button('17', )
 
