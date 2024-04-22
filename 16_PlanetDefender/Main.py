@@ -203,7 +203,7 @@ def start_the_game():
                 if not reinicio_paritda:
                     reinicio_paritda = pygame.time.get_ticks()
                     pantalla.fill((0, 0, 0))
-                    texto_game_over = pygame.image.load("gameover.png")
+                    texto_game_over = pygame.image.load("gameOver.png")
                     x = (pantalla.get_width() - texto_game_over.get_width()) // 2
                     y = (pantalla.get_height() - texto_game_over.get_height()) // 2
                     pantalla.blit(texto_game_over, (x, y))
