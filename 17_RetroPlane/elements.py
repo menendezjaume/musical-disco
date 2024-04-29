@@ -19,13 +19,13 @@ class Aircraft(pygame.sprite.Sprite):
         super().__init__()
         
         self.sprites_movement = [
-            pygame.transform.scale(pygame.image.load("17_RetroPlane/aircraft_img/avion-left.png"), (95,90)),
-            pygame.transform.scale(pygame.image.load("17_RetroPlane/aircraft_img/avion-right.png"), (95,90))]
+            pygame.transform.scale(pygame.image.load("aircraft_img/avion-left.png"), (95,90)),
+            pygame.transform.scale(pygame.image.load("aircraft_img/avion-right.png"), (95,90))]
     
     
         self.sprites = [
-            pygame.image.load("17_RetroPlane/aircraft_img/avion1.png"),
-            pygame.image.load("17_RetroPlane/aircraft_img/avion2.png")
+            pygame.image.load("aircraft_img/avion1.png"),
+            pygame.image.load("aircraft_img/avion2.png")
         ]
         
         self.current_sprite = 0
@@ -83,21 +83,21 @@ class Aircraft(pygame.sprite.Sprite):
     def animate(self):
         if score >= 10 and score < 20:
             self.sprites = [
-                pygame.image.load("17_RetroPlane/aircraft_img/player.png"),
-                pygame.image.load("17_RetroPlane/aircraft_img/player1.png")
+                pygame.image.load("aircraft_img/player.png"),
+                pygame.image.load("aircraft_img/player1.png")
             ]
             self.sprites_movement = [
-                pygame.transform.scale(pygame.image.load("17_RetroPlane/aircraft_img/player3.png"), (95,90)),
-                pygame.transform.scale(pygame.image.load("17_RetroPlane/aircraft_img/player2.png"), (95,90))
+                pygame.transform.scale(pygame.image.load("aircraft_img/player3.png"), (95,90)),
+                pygame.transform.scale(pygame.image.load("aircraft_img/player2.png"), (95,90))
             ]
         if score == 20:
             self.sprites = [
-                pygame.image.load("17_RetroPlane/aircraft_img/e1.png"),
-                pygame.image.load("17_RetroPlane/aircraft_img/e2.png")
+                pygame.image.load("aircraft_img/e1.png"),
+                pygame.image.load("aircraft_img/e2.png")
             ]
             self.sprites_movement = [
-                pygame.transform.scale(pygame.image.load("17_RetroPlane/aircraft_img/e4.png"), (95,90)),
-                pygame.transform.scale(pygame.image.load("17_RetroPlane/aircraft_img/e3.png"), (95,90))
+                pygame.transform.scale(pygame.image.load("aircraft_img/e4.png"), (95,90)),
+                pygame.transform.scale(pygame.image.load("aircraft_img/e3.png"), (95,90))
             ]
             
         self.current_sprite += 1
@@ -114,9 +114,9 @@ aircraft = Aircraft()
 class Bullet(pygame.sprite.Sprite):
     def __init__(self,x, y):
         super().__init__()
-        self.image = pygame.transform.scale(pygame.image.load("17_RetroPlane/aircraft_img/bullet.png"), (20, 30))
+        self.image = pygame.transform.scale(pygame.image.load("aircraft_img/bullet.png"), (20, 30))
         if score >= 10 and score < 13:
-            self.image = pygame.transform.scale(pygame.image.load("17_RetroPlane/aircraft_img/avion-bullet.png"), (70, 70))
+            self.image = pygame.transform.scale(pygame.image.load("aircraft_img/avion-bullet.png"), (70, 70))
         self.rect = self.image.get_rect()
         self.rect.center = [x, y]
         
@@ -135,7 +135,7 @@ class Bullet(pygame.sprite.Sprite):
 class Enemy(pygame.sprite.Sprite):
     def __init__(self, x, y):
         super().__init__()       
-        self.image = pygame.transform.scale(pygame.image.load("17_RetroPlane/enemy_img/e"+ str(random.randint(1, 2))+".png"),(110, 100))
+        self.image = pygame.transform.scale(pygame.image.load("enemy_img/e"+ str(random.randint(1, 2))+".png"),(110, 100))
         self.rect = self.image.get_rect()
         self.rect.center = [x, y]
         self.speed = 2
@@ -159,9 +159,9 @@ class Enemy(pygame.sprite.Sprite):
 class EnemyBullet(pygame.sprite.Sprite):
     def __init__(self,x, y):
         super().__init__()
-        self.image = pygame.transform.scale(pygame.image.load("17_RetroPlane/enemy_img/enemy_bullet.png"), (20, 30))
+        self.image = pygame.transform.scale(pygame.image.load("enemy_img/enemy_bullet.png"), (20, 30))
         if score >= 10:
-            self.image = pygame.transform.scale(pygame.image.load("17_RetroPlane/aircraft_img/bullet2.png"), (20, 30))
+            self.image = pygame.transform.scale(pygame.image.load("aircraft_img/bullet2.png"), (20, 30))
         self.rect = self.image.get_rect()
         self.rect.center = [x, y] 
         
@@ -183,7 +183,7 @@ class Explosion(pygame.sprite.Sprite):
         super().__init__()
         self.images = []
         for n in range(1, 10):
-            img = pygame.image.load(f"17_RetroPlane/explosion/Circle_explosion{n}.png")
+            img = pygame.image.load(f"explosion/Circle_explosion{n}.png")
             self.images.append(img)
             self.count = 0
         self.image = self.images[self.count]
@@ -209,7 +209,7 @@ class Background:
         width = 482
         height = 892
         self.screen = pygame.display.set_mode((width,height))
-        self.bg = pygame.image.load("17_RetroPlane/frame.png").convert()
+        self.bg = pygame.image.load("frame.png").convert()
         self.bg_height = self.bg.get_height()
         self.scroll = 0
 
@@ -238,6 +238,6 @@ class Background:
     
     def changebg(self):
         if score == 10: 
-            self.bg = pygame.image.load("17_RetroPlane/frame2.png").convert()
+            self.bg = pygame.image.load("frame2.png").convert()
         if score == 20: 
-            self.bg = pygame.image.load("17_RetroPlane/frame3.png").convert()
+            self.bg = pygame.image.load("frame3.png").convert()
