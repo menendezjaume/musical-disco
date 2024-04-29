@@ -15,6 +15,8 @@ Els projectes presentats en aquest repositori serveixen com a demostració pràc
 
 # Instruccions
 
+Per instal·lar les dependencies, fes servir la següent instrucció:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -42,3 +44,4 @@ Aquest repositori està obert a contribucions dels alumnes participants. Si vole
 * [14_AstroRain](14_AstroRain): [@MDCpedro](https://github.com/MDCpedro)
 * [15_SkeletonAlienArmadaVsMexicanCat](15_SkeletonAlienArmadaVsMexicanCat): [@JoanMenendezCalafell](https://github.com/JoanMenendezCalafell)
 * [16_PlanetDefender](16_PlanetDefender): [@JuanSebastianPerniola](https://github.com/JuanSebastianPerniola)
+* [17_RetroPlane](https://github.com/joseluisvazzquez)
