@@ -181,7 +181,7 @@ menu.add.button('Space Shooter', spaceShooter)
 menu.add.button('Cat Invaders', catInvaders)
 menu.add.button('Asteroids', asteroids)
 menu.add.button('Astro Rain', astroRain)
-menu.add.button('Skeleton Alien Armada VS Mexican Cat', planetDefenders)
+menu.add.button('Skeleton Alien Armada VS Mexican Cat', skeletonAlienArmadaVsMexicanCat)
 menu.add.button('Planet Defender', PlanetDefender)
 menu.add.button('RetroPlane', RetroPlane)
 
