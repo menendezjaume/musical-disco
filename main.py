@@ -155,36 +155,41 @@ pantalla.fill((255, 255, 255))
 pygame.display.flip()
 
 myimage = pygame_menu.baseimage.BaseImage(
-    image_path="logo.png",
+    image_path="final.png",
     drawing_mode=pygame_menu.baseimage.IMAGE_MODE_FILL,
 )
 
+colorletra = (16, 141, 49)
+
 mytheme = pygame_menu.Theme(background_color=(myimage),
-                            title_background_color=(0, 0, 0),
+                            title_background_color=(255, 255, 255),
+                            selection_color=colorletra,
                             )
 
 
 pygame.display.flip()
 menu = pygame_menu.Menu('', pantalla.get_width(),
                         pantalla.get_height(), theme=mytheme)
-menu.add.button('Astro Rescue', astroRescue)
-menu.add.button('Mario Bros', marioBros)
-menu.add.button('Risky Rescue', riskyRescue)
-menu.add.button('Space Invaders', spaceInvaders)
-menu.add.button('Flappy Bird', flappyBird)
-menu.add.button('Rescate Espacial', rescateEspacial)
-menu.add.button('Dragon Ball', dragonBall)
-menu.add.button('Planet Defenders', planetDefenders)
-# menu.add.button('9', )
-# menu.add.button('10', )
-menu.add.button('Space Shooter', spaceShooter)
-menu.add.button('Cat Invaders', catInvaders)
-menu.add.button('Asteroids', asteroids)
-menu.add.button('Astro Rain', astroRain)
-menu.add.button('Skeleton Alien Armada VS Mexican Cat', skeletonAlienArmadaVsMexicanCat)
-menu.add.button('Planet Defender', PlanetDefender)
-menu.add.button('RetroPlane', RetroPlane)
+menu.add.button('Astro Rescue', astroRescue, font_color=colorletra)
+menu.add.button('Mario Bros', marioBros, font_color=colorletra)
+menu.add.button('Risky Rescue', riskyRescue, font_color=colorletra)
+menu.add.button('Space Invaders', spaceInvaders, font_color=colorletra)
+menu.add.button('Flappy Bird', flappyBird, font_color=colorletra)
+menu.add.button('Rescate Espacial', rescateEspacial, font_color=colorletra)
+menu.add.button('Dragon Ball', dragonBall, font_color=colorletra)
+menu.add.button('Planet Defenders', planetDefenders, font_color=colorletra)
+# menu.add.button('9', , font_color=colorletra)
+# menu.add.button('10', , font_color=colorletra)
+menu.add.button('Space Shooter', spaceShooter, font_color=colorletra)
+menu.add.button('Cat Invaders', catInvaders, font_color=colorletra)
+menu.add.button('Asteroids', asteroids, font_color=colorletra)
+menu.add.button('Astro Rain', astroRain, font_color=colorletra)
+menu.add.button('Skeleton Alien Armada VS Mexican Cat', skeletonAlienArmadaVsMexicanCat, font_color=colorletra)
+menu.add.button('Planet Defender', PlanetDefender, font_color=colorletra)
+menu.add.button('RetroPlane', RetroPlane, font_color=colorletra)
 
+# menu.get_position(100, 0)
+# text_rect = menu.get_rect(center=(SCREEN_WIDTH/2, SCREEN_HEIGHT/2))
 
 menu.mainloop(pantalla)
 
